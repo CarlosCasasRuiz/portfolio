@@ -1,0 +1,431 @@
+@font-face {
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-family: "Montserrat-Bold";
+  }
+@font-face {
+    src: url("../fonts/Montserrat-Medium.ttf");
+    font-family: "Montserrat-Medium";
+  }
+  
+header {
+    width: 100%;
+    height: 80px;
+    background-color: hsla(0, 0%, 92%, 0.95);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+  }
+
+.imagotipo {
+    width: 73px;
+    margin-left: 135px;
+  }
+
+nav a {
+    text-decoration: none;
+    margin-right: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color:#242424;
+  }
+
+nav a:last-child {
+      margin-right: 120px;
+  }
+
+nav{
+    display: flex;
+  }
+
+main {
+    overflow: hidden;
+  }
+
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #242424;
+    text-align: center;
+  }
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #242424;
+    margin-bottom: 24px;
+  }
+
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #242424;
+  }
+
+button {
+    margin-top: 24px;
+    margin-left: 24px;
+    border: 2px solid #E61F69;
+    padding: 14px 16px;
+    background-color: #F9F9F9;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #242424;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.intro-container {
+    padding-top: 12vh;
+  }
+
+.who-container {
+    background-color: #EAEAEA70;
+}
+
+.Hello {
+    width: 100%;
+    display: flex;
+    margin-left: 270px;
+    margin-right: 220px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    gap: 300px;
+    align-items: center;
+}
+
+
+.Curious {
+    width: 100%;
+    display: flex;
+    margin-left: 270px;
+    margin-right: 220px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    gap: 370px;
+    align-items: center;
+  }
+
+.Hey {
+    width: 100%;
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    gap: 100px;
+    align-items: center;
+    padding-top: 150px;
+  }
+
+.Carlos-info {
+      width: 500px;
+  }
+
+.BROHOD {
+        width: 100%;
+        display: flex;
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        gap: 100px;
+        align-items: center;
+        padding-bottom: 150px;
+  }
+
+.BROHOD-info {
+    width: 500px;
+}
+
+.Project1- {
+    width: 100%;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 220px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    gap: 50px;
+    align-items: center;
+  }
+
+.project1-img{
+    width: 600px;
+}
+
+.Project1-info {
+    width: 500px; 
+  }
+
+.Project2- {
+    width: 100%;
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .project2-img{
+      width: 600px;
+  }
+
+  .Project2-info {
+    width: 500px; 
+  }
+
+.Project3- {
+    width: 100%;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 220px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    gap: 50px;
+    align-items: center;
+  }
+
+.project3-img{
+    width: 600px;
+}
+
+.Project3-info {
+    width: 500px; 
+  }
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: hsla(0, 0%, 92%, 0.95);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+ footer p {
+    margin-left: 80px;
+  }
+
+.contact-icons a {
+    text-decoration: none;
+    margin-right: 40px;
+    color:#242424;
+  }
+
+.contact-icons img {
+    width: 20px;
+  }
+
+.contact-icons {
+    margin-right: 80px;
+}
+
+#contact-me{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#mail-contact{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #242424;
+}
+
+@media (max-width: 414px) {
+
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: hsla(0, 0%, 92%, 0.95);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        position: fixed;
+        z-index: 1000;
+      }
+    
+    .imagotipo {
+        width: 73px;
+        margin-left: 15px;
+      }
+    
+    nav a {
+        text-decoration: none;
+        margin-right: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color:#242424;
+      }
+    
+    nav a:last-child {
+          margin-right: 15px;
+      }
+    
+    nav{
+        display: flex;
+      }
+
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: hsla(0, 0%, 92%, 0.95);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        position: fixed;
+        z-index: 1000;
+      }
+    
+    .Hello{
+        width: 100%;
+        width: 180px;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        gap: 0;
+        background-image: url(../images/BRO\ opacity-01.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position-x: 45%;        
+    }
+
+    .BRO-img{
+        display: none;
+    }
+
+    .Curious{
+        width: 100%;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 150px;
+        gap: 0;
+        background-image: url(../images/HOD\ opacity-01.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position-x: 45%;      
+    }
+
+    .HOD-img{
+        display: none;
+    }
+
+    .Carlos-info {
+        width: 338px;
+    }
+    .Hey{
+        width: 100%;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
+        gap: 0;
+    }
+
+    .BROHOD-info {
+        width: 338px;
+    }
+
+    .BROHOD{
+        width: 100%;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
+        gap: 0;
+    }
+
+    .Project1-info{
+        width: 338px;
+    }
+
+    .projects-container{
+        width: 100%;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
+        gap: 0;
+    }
+
+    .Project1-{
+        width: 100%;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
+        gap: 0;
+    }
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    footer {
+        width: 100%;
+        height: 60px;
+        background-color: hsla(0, 0%, 92%, 0.95);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+     footer p {
+        margin-left: 10px;
+      }
+    
+    .contact-icons a {
+        text-decoration: none;
+        margin-right: 10px;
+        color:#242424;
+      }
+    
+    .contact-icons img {
+        width: 20px;
+      }
+    
+    .contact-icons {
+        margin-right: 10px;
+    }
